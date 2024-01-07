@@ -265,7 +265,7 @@ function setVideo(element) {
   iframe.src = element.getAttribute("href");
   video.style.display = "block";
   const webSeriesData = document.getElementById("webSeriesData");
-  const tmdbApiKey = "b6b677eb7d4ec17f700e3d4dfc31d005";
+  const tmdbApiKey = "f6e840332142f77746185ab4e67be858";
   const imdbID = element.getAttribute("IMDB");
   Pace.restart();
   scrollToTop();
