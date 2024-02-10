@@ -54,4 +54,4 @@ RgSeries respects intellectual property rights and does not host any illegal or 
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
