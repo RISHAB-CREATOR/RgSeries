@@ -2,6 +2,8 @@
 
 Welcome to RgSeries, your one-stop destination for streaming your favorite series, TV shows, and anime for free! With minimal ads and a sleek UI, binge-watching has never been more enjoyable. 🚀
 
+**NOTE : THIS PROJECT IS NOW OLD AND OUTDATED !!**
+
 ## Features ✨
 
 ✅ **Free Streaming:** Watch unlimited series, TV shows, and anime episodes without any subscription fees.  
