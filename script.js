@@ -51,7 +51,7 @@ function fetchAndShow() {
           let imageAndInfo = "";
 
           if (result.qid === "movie" && result.i) {
-            imageAndInfo = `<a onClick="setUrl(this); return setVideo(this);" url="imdb=${result.id}&type=movie&title=${result.l.replace(/ /g, "_")}" isWebSeries="false" title="${result.l}"  class="links" IMDB="${result.id}" href="https://embed.smashystream.com/playere.php?imdb=${result.id}" target="_blank">
+            imageAndInfo = `<a onClick="setUrl(this); return setVideo(this);" url="imdb=${result.id}&type=movie&title=${result.l.replace(/ /g, "_")}" isWebSeries="false" title="${result.l}"  class="links" IMDB="${result.id}" href="https://vidsrc.pro/embed/movie/${result.id}" target="_blank">
                      <img alt="${result.l}" src="${optimisedImageUrl(result.i.imageUrl)}">
                       <div class="info">
                        <h3>${result.l}</h3>
@@ -59,7 +59,7 @@ function fetchAndShow() {
                       </div>
                    </a>`;
           } else if (result.qid === "tvSeries" && result.i) {
-            imageAndInfo = `<a onClick="setUrl(this); return setVideo(this);" url="imdb=${result.id}&season=1&episode=1&title=${result.l.replace(/ /g, "_")}" IMDB="${result.id}" title="${result.l}" isWebSeries="true" class="links" href="https://embed.smashystream.com/playere.php?imdb=${result.id}&season=1&episode=1" target="_blank">
+            imageAndInfo = `<a onClick="setUrl(this); return setVideo(this);" url="imdb=${result.id}&season=1&episode=1&title=${result.l.replace(/ /g, "_")}" IMDB="${result.id}" title="${result.l}" isWebSeries="true" class="links" href="https://vidsrc.pro/embed/tv/${result.id}/1/1" target="_blank">
                       <img alt="${result.l}" src="${optimisedImageUrl(result.i.imageUrl)}">
                         <div class="info">
                           <h3>${result.l}</h3>
